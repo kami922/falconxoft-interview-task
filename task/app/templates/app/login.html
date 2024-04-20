@@ -1,0 +1,11 @@
+login page
+
+<form method="POST" autocomplete="off">
+    
+    {% csrf_token %}
+
+    {{loginF.as_p}}
+
+    <input type="submit" value="Register"/>
+
+</form>
